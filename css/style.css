@@ -1,0 +1,84 @@
+.jumbotron{ 
+    margin-top: 35px;
+    background-image: url(https://gamespot1.cbsistatic.com/uploads/screen_kubrick/1551/15511094/3667472-gaming-pc-build-2020--how-to-build-a-gaming-pc-from-scratch-promothumb2.jpg);
+    background-size: cover;
+    height: 50rem;
+}
+
+.smaller{
+    font-size: small;
+}
+
+.card-title{
+    font-size: larger;
+}
+
+.card-text{
+    font-size: large;
+}
+
+.cart{
+    margin-left: 25rem; 
+    font-size: larger;   
+}
+
+
+.shrink{
+    width: 70%;
+}
+
+.cart-img .cart-img-top {
+    width: 50%;
+    height: 5vw;
+    object-fit: cover;
+}
+
+.card-title{
+    width: 15vw;
+}
+
+.about{
+    margin-left: 20rem;
+}
+
+.row .col-sm-6 figure img{
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+
+.home-margin{
+    margin-left: 2rem;
+}
+
+.fa-twiter{
+    color: blue;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.alert{
+    text-align: center;
+}
+
+.fix-home{
+    margin-left: 2rem;
+}
+
+@media screen and (min-width: 768px ) and (max-width: 1600px){
+    .fix-home {
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about{
+        margin-left: 2rem;
+    }
+
+    .cart{
+        margin-left: 2rem; 
+        font-size: larger;   
+    }
+}
